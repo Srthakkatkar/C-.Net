@@ -1,0 +1,64 @@
+---solid principles:
+
+s - single responsibility principle
+o - opene or close principle
+l - liskon substitution principle
+i - interface segmentation principle
+d - dependency inversion principle
+
+---single responsibility principle-
+
+class Student{
+    public void saveStudent(){
+
+    }
+}//bad eg
+
+correct eg-
+class Student{
+    public stringName{get : set}
+}
+
+class StudentRepo{
+    public void save(){
+
+    }
+}
+
+---Open or close Principle : 
+   Class should be open for extention but closed for modification,
+   you should add new features without changing existing code
+
+---liskon substitution principle :
+   Child class should replace parent class without breaking program
+   - If B is child of A we should be able to use B everywhere A is used  
+
+class Bird{
+   public virtual void fly(){
+    print(Bird is flying);
+   }
+}
+
+class Ostrich : Bird{
+    public override void fly(){
+        throw new Exeption ("He can't fly";)
+    }
+}//bad eg
+
+correct eg-
+
+//27-01-2026
+
+Delegates: is the reference to the method It works like functions methods
+-for static methods delegates encapsulate method only for instance method it encapsulates method and instance
+
+Ex.
+              Class                                                   delegates
+        public class Test{}                               public delegates void Test{}
+
+-Delegates in c sharp allows U to reference a method like a variable creating more flexible and dynamic program
+
+There are two types of delegates-
+1.single cast delegates- we can call one delegates to one function
+2.multiple delegate: we can call one delegate to multi delegate 
+
