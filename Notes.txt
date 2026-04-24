@@ -62,3 +62,24 @@ There are two types of delegates-
 1.single cast delegates- we can call one delegates to one function
 2.multiple delegate: we can call one delegate to multi delegate 
 
+//MVC is desigen pattern used to developed scaleble appliction 
+-It seprate appliction into 3 diff responsibility
+
+Model- data layer, model represent the data and business logic of the application
+responsibilities- data access, data validation, business logic
+eg. public class customers
+{
+    public int id {get; set;}
+    public string name {get; set;}
+    public string email {get; set;}
+}
+
+View- UI layer, view is responsible for displaying the data to the user and handling user interactions
+-what user see and interact with on browser
+responsibilities- display data, handle user input, user interface design
+
+Controller- control layer, controller is responsible for handling user requests and coordinating the interactions between the model and view
+-Controller connect model and view
+-Controller is brain of the application
+-Controller
+-responsibilities- handle user requests, process data, update view, return response

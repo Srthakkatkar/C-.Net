@@ -1,0 +1,26 @@
+@model List<DrivingSchoolApp.Models.Student>
+
+<h2>Student List</h2>
+
+<a href="/Student/Create">Add Student</a>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Course</th>
+        <th>Fees</th>
+        <th>Status</th>
+    </tr>
+
+@foreach (var s in Model)
+{
+    <tr>
+        <td>@s.Name</td>
+        <td>@s.Phone</td>
+        <td>@s.Course</td>
+        <td>@s.Fees</td>
+        <td>@s.Status</td>
+    </tr>
+}
+</table>
