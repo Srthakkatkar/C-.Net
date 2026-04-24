@@ -1,0 +1,14 @@
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\bin\Release\net10.0\Experiment_1.exe
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\bin\Release\net10.0\Experiment_1.deps.json
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\bin\Release\net10.0\Experiment_1.runtimeconfig.json
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\bin\Release\net10.0\Experiment_1.dll
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\bin\Release\net10.0\Experiment_1.pdb
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\obj\Release\net10.0\Experiment_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\obj\Release\net10.0\Experiment_1.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\obj\Release\net10.0\Experiment_1.AssemblyInfo.cs
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\obj\Release\net10.0\Experiment_1.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\obj\Release\net10.0\Experiment_1.dll
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\obj\Release\net10.0\refint\Experiment_1.dll
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\obj\Release\net10.0\Experiment_1.pdb
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\obj\Release\net10.0\Experiment_1.genruntimeconfig.cache
+C:\Users\Asus\Downloads\DotNetExp\dotnetExp\Experiment_1\obj\Release\net10.0\ref\Experiment_1.dll
