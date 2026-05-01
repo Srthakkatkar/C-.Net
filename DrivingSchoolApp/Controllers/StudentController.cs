@@ -1,16 +1,22 @@
 using Microsoft.AspNetCore.Mvc;
 using DrivingSchoolApp.Models;
-using System.Collections.Generic;
+using DrivingSchoolApp.Data;
+using System.Linq;
 
 namespace DrivingSchoolApp.Controllers
 {
     public class StudentController : Controller
     {
-        // Temporary storage (no DB)
-        public static List<Student> students = new List<Student>();
+        private readonly AppDbContext _context;
+
+        public StudentController(AppDbContext context)
+        {
+            _context = context;
+        }
 
         public IActionResult Index()
         {
+            var students = _context.Students.ToList();
             return View(students);
         }
 
@@ -22,7 +28,8 @@ namespace DrivingSchoolApp.Controllers
         [HttpPost]
         public IActionResult Create(Student student)
         {
-            students.Add(student);
+            _context.Students.Add(student);
+            _context.SaveChanges();
             return RedirectToAction("Index");
         }
     }

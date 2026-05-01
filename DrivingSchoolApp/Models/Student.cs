@@ -2,6 +2,8 @@ namespace DrivingSchoolApp.Models
 {
     public class Student
     {
+        public int Id { get; set; }   // REQUIRED
+
         public string? Name { get; set; }
         public string? Phone { get; set; }
         public string? Course { get; set; }
